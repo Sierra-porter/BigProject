@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2471813759188061527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2471813759188061526}
+  - component: {fileID: 2471813759188061513}
+  m_Layer: 0
+  m_Name: EvilAngelPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2471813759188061526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813759188061527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2471813760524228108}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2471813759188061513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813759188061527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b73f43235b64496865a4d1d8d47a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  est: {fileID: 2471813760524228110}
+--- !u!1 &2471813760524228109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2471813760524228108}
+  - component: {fileID: 2471813760524228098}
+  - component: {fileID: 2471813760524228099}
+  - component: {fileID: 2471813760524228096}
+  - component: {fileID: 2471813760524228097}
+  - component: {fileID: 2471813760524228110}
+  - component: {fileID: 2471813760524228111}
+  - component: {fileID: 2471813760524228101}
+  - component: {fileID: 2471813760524228100}
+  m_Layer: 0
+  m_Name: EvilAngel
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2471813760524228108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.56, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2471813759188061526}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2471813760524228098
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 12
+  m_Sprite: {fileID: -1509349288932989279, guid: ca74273c9de42481ba13e177323f6e29,
+    type: 3}
+  m_Color: {r: 1, g: 0.41037738, b: 0.41037738, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.45, y: 0.42}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &2471813760524228099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027b559154661423889dc1f80a5fb23a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stand:
+  - {fileID: -1509349288932989279, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  Up:
+  - {fileID: 690974083075628061, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: -8357763503599868063, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: -5801675872540947678, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: 8863432870271187122, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  Down:
+  - {fileID: -1509349288932989279, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: 7087044311594680629, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: -6822666245960022775, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: -7571549768829032048, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  LeftRight:
+  - {fileID: -8234707716807066167, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: -1181260762481032023, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: 4534904505208617799, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  - {fileID: 6302009125496719660, guid: 83a792246ab5c406a9d170ca84b09f68, type: 3}
+  rd: {fileID: 2471813760524228098}
+  rander: {fileID: 0}
+  UltimateSprites: []
+  Speed: 6
+--- !u!50 &2471813760524228096
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!70 &2471813760524228097
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.18, y: 0.42}
+  m_Direction: 0
+--- !u!114 &2471813760524228110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fee466701914a7d84b1711d36352f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HpMax: 15
+  HpCur: 15
+  HpRegen: 0.01
+  ManaMax: 0
+  ManaCur: 0
+  ManaRegen: 0
+  Speed: 2
+  SpeedAttack: 100
+  ShieldRecharge: 0
+  ShieldRegenBonus: 0
+  ShieldSpellMana: 0
+  UltimateCoolDown: 0
+  UltimateDmgBonus: 0
+  UltimateMana: 0
+  UltimateSpeedBonus: 0
+  Attack: 4
+  FireBallMana: 0
+  Score: 0
+  EnemyBounty: 0
+  lvl: 0
+  ScoreAward: 0
+--- !u!114 &2471813760524228111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4ccf8c370114a91a7ded875bff1bd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2471813760524228101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a390b016d2cd40258a112ae09c147e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2471813760524228100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471813760524228109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd780d9e8bea048348fae7c2b140d8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpellAttack: {fileID: 1653869927897125786, guid: 2643d91b41f384dd0bbf908302ba1348,
+    type: 3}

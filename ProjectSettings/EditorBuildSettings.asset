@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestScene/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/Main_Game.unity
+    guid: dc0d8e4e539fa4c2093458c782a0a7ed
+  - enabled: 1
+    path: Assets/Scenes/CharacterHub.unity
+    guid: 30cf404c416284f258291d6158e14bd8
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/AfanasyevDungeonWithBos.unity
+    guid: 9f9d108858512467ba572df713e08df5
+  - enabled: 1
+    path: Assets/Scenes/Shops/ArmorShop.unity
+    guid: 67241ff7913804c90b93358f55dfccdc
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/DarkWoodDungeon.unity
+    guid: abdc94ef529864cd087dc5487c796b90
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/StoneDungeon.unity
+    guid: cc86e7a8ec23f405d909167e6f5468b9
+  m_configObjects: {}
